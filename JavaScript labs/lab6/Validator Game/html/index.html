@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Validator Game</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <table>
+            <form action="">
+                <tbody>
+                    <tr>
+                        <td>Name</td>
+                        <td><input id="1" type="text" value="" ></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Password</td>
+                        <td><input type="password" value=""></td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="gender" value=""><label for="gender">Male</label>
+                            <input type="radio" name="gender" value=""><label for="gender">Female</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sports</td>
+                        <td>
+                            <input type="checkbox" name="tennis"><label for="tennis" value="">Tennis</label>
+                            <input type="checkbox" name="running"><label for="running" value="">Running</label>
+                            <input type="checkbox" name="football"><label for="football" value="">Footbal</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="none">Select your Country</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Dubi">Dubi</option>
+                                <option value="Sudia">Sudia</option>
+                            </select>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="button" onclick="Submit()">Submit</button>
+                            <button type="reset">Reset</button>
+                        </td>
+                    </tr>
+                </tbody>
+
+            </form>
+        </table>
+        <div class="validation">
+            <div class="left">
+                <p id="validname">Name is Required!</p>
+                <p id="validpassword">Password must be 8 character at least</p>
+                <p id="validsport">Please select at least 2 sports</p>
+            </div>
+            <div class="right">
+                <p id="validemail">Email is not valid!</p>
+                <p id="validgender">Please select your gender</p>
+                <p id="validcountry">Please select your country</p>
+            </div>
+        </div>
+    </div>
+    <script src="../js/demo.js"></script>
+</body>
+
+</html>

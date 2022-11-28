@@ -1,0 +1,120 @@
+.container {
+    width: 40%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    margin-top: 50px;
+}
+
+table {
+    margin: auto;
+}
+td {
+    padding: 6px;
+}
+
+tbody tr:nth-child(1) input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 174, 9);
+}
+
+tbody tr:nth-child(2) input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 174, 9);
+
+}
+
+tbody tr:nth-child(3) input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 174, 9);
+}
+
+tbody tr:nth-child(4) input {
+    width: 40px;
+    height: 20px;
+}
+
+tbody tr:nth-child(5) input {
+    width: 40px;
+    height: 20px;
+}
+
+select {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(234, 174, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+button {
+    
+    width: 110px;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+td button:nth-child(1) {
+    margin-left: 125px;
+    background-color: rgb(36, 167, 36)
+}
+
+td button:nth-child(2) {
+    background-color: rgb(243, 25, 25)
+}
+/*------------------------------------------------- */
+/* Validation */
+.validation{
+    font-size: small;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: rgb(215, 83, 83,.4);
+    height: auto;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    color: rgb(119, 30, 30);
+}
+.right{
+    
+    width: 50%;
+    color: rgb(119, 30, 30);
+} 
+.validation p{
+    padding-left: 5px;
+}
+
+#validname{
+    display: none;
+}
+#validemail{
+    display: none;
+}
+#validpassword{
+    display: none;
+}
+#validgender{
+    display: none;
+}
+#validsport{
+    display: none;
+}
+#validcountry{
+    display: none;
+}
+
+
+
+

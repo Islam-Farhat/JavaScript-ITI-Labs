@@ -1,0 +1,21 @@
+.container{
+    margin-top: 100px;
+    text-align: center; 
+}
+
+img{
+    width:400px;
+    height: 400px;
+    border-radius: 5px;
+}
+button{
+    background-color: #f6f3f3;
+    color: black;
+    height: 100%; 
+    padding: 10px;
+    border-radius: 3px;
+    margin:5px;
+    border-color: blue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
